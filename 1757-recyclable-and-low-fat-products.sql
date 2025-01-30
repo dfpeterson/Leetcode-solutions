@@ -1,6 +1,7 @@
 /*
 Level: Easy
 Link: https://leetcode.com/problems/recyclable-and-low-fat-products/
+Tags: database
 Description:
 Write a solution to find the ids of products that are both low fat and
 recyclable.

@@ -1,6 +1,7 @@
 /*
 Level: Easy
 Link: https://leetcode.com/problems/find-customer-referee/
+Tags: database
 Description:
 Find the names of the customer that are not referred by the customer with
 id = 2.
