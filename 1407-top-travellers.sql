@@ -21,7 +21,7 @@ LEFT JOIN rides AS r
     ON
         u.id = r.user_id
 GROUP BY
-    u.name
+    u.id, u.name
 ORDER BY
     traveled_distance DESC,
     u.name ASC
