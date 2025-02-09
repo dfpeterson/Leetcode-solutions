@@ -11,8 +11,6 @@ on the same column.
 
 Return the number of servers that communicate with any other server.
 """
-
-
 class Solution:
     def countServers(self, grid: list[list[int]]) -> int:
         servers = 0
