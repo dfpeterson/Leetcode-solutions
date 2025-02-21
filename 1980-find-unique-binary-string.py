@@ -15,7 +15,7 @@ class Solution:
 
 # Second, more efficient solution
 class Solution:
-    def findDifferentBinaryString(self, nums: List[str]) -> str:
+    def findDifferentBinaryString(self, nums: list[str]) -> str:
         numset = set(nums)
         for k in range(len(nums[0])+1):
             if f'{k:0{len(nums[0])}b}' not in numset:
