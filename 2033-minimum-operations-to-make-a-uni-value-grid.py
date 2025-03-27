@@ -11,13 +11,12 @@ A uni-value grid is a grid where all the elements of it are equal.
 Return the minimum number of operations to make the grid uni-value. If it is
 not possible, return -1.
 """
+from statistics import median_low, median_high
 class Solution:
     def minOperations(self, grid: list[list[int]], x: int) -> int:
         flat = []
         for k in grid:
             flat.extend(k)
-        #find median
-        #check that difference between all elements and median are % k == 0
         ml, mh = median_low(flat), median_high(flat)
         cl, ch = 0, 0
         for n in flat:
