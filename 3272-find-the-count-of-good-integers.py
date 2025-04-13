@@ -19,6 +19,7 @@ Return the count of good integers containing n digits.
 Note that any integer must not have leading zeros, neither before nor after
 rearrangement. For example, 1010 cannot be rearranged to form 101.
 """
+from math import factorial
 class Solution:
     def countGoodIntegers(self, n: int, k: int) -> int:
         halfnum = max(n//2,1)
