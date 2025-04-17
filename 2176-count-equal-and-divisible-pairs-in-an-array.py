@@ -9,7 +9,7 @@ number of pairs (i, j) where 0 <= i < j < n, such that nums[i] == nums[j] and
 """
 from collections import defaultdict
 class Solution:
-    def countPairs(self, nums: List[int], k: int) -> int:
+    def countPairs(self, nums: list[int], k: int) -> int:
         pair_locs = defaultdict(list)
         pairs = 0
         for m in range(len(nums)):

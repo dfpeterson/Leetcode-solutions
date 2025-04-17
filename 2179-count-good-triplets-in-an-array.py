@@ -16,7 +16,7 @@ Return the total number of good triplets.
 """
 from sortedcontainers import SortedList
 class Solution:
-    def goodTriplets(self, nums1: List[int], nums2: List[int]) -> int:
+    def goodTriplets(self, nums1: list[int], nums2: list[int]) -> int:
         N = len(nums1)
         appeared1 = [None] * N
         appeared2 = []
