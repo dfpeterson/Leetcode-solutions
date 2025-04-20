@@ -13,7 +13,7 @@ A subarray is a contiguous non-empty sequence of elements within an array.
 """
 from collections import defaultdict
 class Solution:
-    def countGood(self, nums: List[int], k: int) -> int:
+    def countGood(self, nums: list[int], k: int) -> int:
         N = len(nums)
         num_counts = defaultdict(int)
         found_pairs = 0
