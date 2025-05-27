@@ -20,6 +20,7 @@ tree:
 Return the maximum possible sum of the values Alice can achieve by performing
 the operation any number of times.
 """
+import heapq
 class Solution:
     def maxRemoval(self, nums: list[int], queries: list[list[int]]) -> int:
         da = [0] * (len(nums) + 1)

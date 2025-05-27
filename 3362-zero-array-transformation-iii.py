@@ -18,6 +18,7 @@ Return the maximum number of elements that can be removed from queries, such
 that nums can still be converted to a zero array using the remaining queries.
 If it is not possible to convert nums to a zero array, return -1.
 """
+import heapq
 class Solution:
     def maxRemoval(self, nums: list[int], queries: list[list[int]]) -> int:
         da = [0] * (len(nums) + 1)
