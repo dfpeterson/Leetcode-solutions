@@ -1,5 +1,5 @@
 """
-Level: easy
+Level: Easy
 Link: https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
 Tags: array, two-pointers
 Description:
